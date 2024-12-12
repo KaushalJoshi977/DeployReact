@@ -1,0 +1,40 @@
+/* Home.css */
+
+.tv-container {
+    text-align: center;
+  }
+  
+  .tv-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .tv-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tv-image {
+    max-width: 250px;
+    height: auto;
+    margin-bottom: 15px;
+  }
+  
+  .price {
+    color: #007bff; /* Blue color for price */
+    font-weight: bold;
+  }
+  
+  .buy-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
